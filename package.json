@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.0.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@pinia/nuxt": "^0.5.1",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.8.1",
+    "nuxt-icon": "^0.6.6",
+    "pinia": "^2.1.7",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@vueuse/nuxt": "^10.6.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-universal-nuxt": "^2.2.2",
+    "google-auth-library": "^9.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "nuxt-storage": "^1.2.2",
+    "puppeteer": "^21.5.2",
+    "sass": "^1.69.5",
+    "vue3-google-login": "^2.0.25"
+  }
+}
